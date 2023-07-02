@@ -22,8 +22,8 @@ In this Project, A Desktop assistant is designed using python and is customize f
  
 
 ## Packages Used in the program:
-- Pyttsx3
-- Speech Recognition
+- [Pyttsx3](https://pypi.org/project/pyttsx3/)
+- [Speech Recognition](https://pypi.org/project/SpeechRecognition/)
 - Wikipedia
 - Web browser
 - Datetime
