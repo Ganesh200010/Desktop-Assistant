@@ -1,3 +1,13 @@
+<p align="left">
+
+<img src="https://img.shields.io/badge/Python-3.x-blue.svg?logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/Apache-2.0-green.svg?logo=Apache&logoColor=white">
+<img src="https://img.shields.io/badge/speech-recorgination-green.svg?logo=&logoColor=white">
+
+
+
+</p>
+
 # Desktop-Assistant
 
 
@@ -76,3 +86,40 @@ In order to extract data from Wikipedia, we must first install the Python Wikipe
     pip install wikipedia
 ## For more information :
 https://pypi.org/project/wikipedia/
+
+
+# Voice-Assistant
+
+## Requirements of workspace to run the program
+
+## Installing libraries
+
+1.* To give commands and perform tasks.
+  
+      pip install speechRecognition 
+
+ 2.* This module is used to access camera for capturing images.
+
+      pip install opencv-python 
+3.* This library helps System to speak ask which task to perform from the user.
+
+      pip install PyAudio 
+4.* To make System take screenshots and save easily
+
+      pip install Pillow
+
+## What can a system Perform
+
+- Ask time and day
+- Ask to open google,brave,youtube,stack overflow
+- Take screenshot of current screen
+- Record your voice
+- Open calender and look into the calender of any year you desire
+- Generate a new password for you
+  etc
+
+## Some further details regarding the system that you may explore and test.
+
+The  <code>_**r.pause_threshold**_</code>  argument increases the duration to wait for the assistance in the  <code>_**takeCommand()**_</code>  method so that it won't stop listening if you accept a little break, whether you wish to or not. In other words, the longer you may delay after issuing a command, the higher the pause_threshold.
+
+Another parameter called r.energy_threshold is also utilised in conjunction with it; as its value increases, it reduces the sensitivity of its input. More shouting is required to communicate directives to the system the higher the energy_threshold.
